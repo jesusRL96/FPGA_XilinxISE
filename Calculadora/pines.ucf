@@ -1,0 +1,17 @@
+net clk2 loc=b8;
+net clk loc=r12;
+net rst loc=b18;
+net dis<0> loc=l18;
+net dis<1> loc=f18;
+net dis<2> loc=d17;
+net dis<3> loc=d16;
+net dis<4> loc=g14;
+net dis<5> loc=j17;
+net dis<6> loc=h14;
+net an<0> loc=f17;
+net an<1> loc=h17;
+net an<2> loc=c18;
+net an<3> loc=f15;
+net dato loc=p11;
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+

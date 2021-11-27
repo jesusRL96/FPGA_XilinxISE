@@ -1,0 +1,24 @@
+
+##Clock signal
+Net "clk" LOC=B8 | IOSTANDARD=LVCMOS33;
+
+
+
+
+
+
+##JA
+Net "Col<0>" LOC = L15; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19P, Sch name = JA1
+Net "Col<1>" LOC = K12; # | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19N, Sch name = JA2  
+Net "Col<2>" LOC = L17; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20P, Sch name = JA3
+Net "Col<3>" LOC = M15; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20N, Sch name = JA4
+Net "Row<0>" LOC = K13; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L22P, Sch name = JA7
+Net "Row<1>" LOC = L16; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L22N, Sch name = JA8
+Net "Row<2>" LOC = M14; #| IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L23P, Sch name = JA9
+Net "Row<3>" LOC = M16;# | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L23N, Sch name = JA10
+
+
+net "reg<3>" loc = k14;
+net "reg<2>" loc = k15;
+net "reg<1>" loc = j15;
+net "reg<0>" loc = j14;

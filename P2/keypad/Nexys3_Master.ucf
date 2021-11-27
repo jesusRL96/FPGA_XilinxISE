@@ -1,0 +1,34 @@
+
+##Clock signal
+Net "clk" LOC=  b8   | IOSTANDARD=LVCMOS33;
+
+
+## 7 segment display
+Net "seg<0>" LOC =  l18  | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L51P_M1DQ12, Sch name = CA
+Net "seg<1>" LOC = F18 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L51N_M1DQ13, Sch name = CB
+Net "seg<2>" LOC = D17 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L52P_M1DQ14, Sch name = CC
+Net "seg<3>" LOC = d16    | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L52N_M1DQ15, Sch name = CD
+Net "seg<4>" LOC = G14 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L53P, Sch name = CE
+Net "seg<5>" LOC = J17 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L53N_VREF, Sch name = CF
+Net "seg<6>" LOC = H14 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L61P, Sch name = CG
+#Net "seg<7>" LOC = C17 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L61N, Sch name = DP
+
+Net "an<0>" LOC = F17 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L50N_M1UDQSN, Sch name = AN0
+Net "an<1>" LOC = h17   | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L50P_M1UDQS, Sch name = AN1
+Net "an<2>" LOC = c18   | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L49N_M1DQ11, Sch name = AN2
+Net "an<3>" LOC = F15 | IOSTANDARD = LVCMOS33; #Bank = 1, pin name = IO_L49P_M1DQ10, Sch name = AN3
+
+
+
+##JA
+Net "JA<0>" LOC = L15 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19P, Sch name = JA1
+Net "JA<1>" LOC = K12 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19N, Sch name = JA2  
+Net "JA<2>" LOC = L17 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20P, Sch name = JA3
+Net "JA<3>" LOC = m15   | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20N, Sch name = JA4
+Net "JA<4>" LOC = K13 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L22P, Sch name = JA7
+Net "JA<5>" LOC = L16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L22N, Sch name = JA8
+Net "JA<6>" LOC = m14    | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L23P, Sch name = JA9
+Net "JA<7>" LOC = M16 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L23N, Sch name = JA10
+
+
+

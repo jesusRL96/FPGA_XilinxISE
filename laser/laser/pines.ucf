@@ -1,0 +1,15 @@
+net clk_p loc=B8;
+net Bp loc=H13;
+net Sp loc=E18;
+net Lp loc=J14;
+net an<0> loc=F17;
+net an<1> loc=H17;
+net an<2> loc=C18;
+net an<3> loc=F15;
+net display<6> loc=L18;
+net display<5> loc=F18;
+net display<4> loc=D17;
+net display<3> loc=D16;
+net display<2> loc=G14;
+net display<1> loc=J17;
+net display<0> loc=H14;

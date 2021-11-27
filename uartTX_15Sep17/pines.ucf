@@ -1,0 +1,12 @@
+net tdre loc=j14;
+net clr loc=h13;
+net tx_data<0> loc=g18;
+net tx_data<1> loc=h18;
+net tx_data<2> loc=k18;
+net tx_data<3> loc=k17;
+net tx_data<4> loc=l14;
+net tx_data<5> loc=l13;
+net tx_data<6> loc=n17;
+net tx_data<7> loc=r17;
+net clk loc=b8;
+net txd loc=p9;

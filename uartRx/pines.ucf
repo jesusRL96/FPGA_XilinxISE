@@ -1,0 +1,14 @@
+net rxd loc=u6;
+net clr loc= h13;
+net rdrf_clr loc=e18;
+net clk loc=b8;
+net rx_data<0> loc=j14;
+net rx_data<1> loc=j15;
+net rx_data<2> loc=k15;
+net rx_data<3> loc=k14;
+net rx_data<4> loc=e17;
+net rx_data<5> loc=p15;
+net rx_data<6> loc=f4;
+net rx_data<7> loc=r4;
+net rdrf loc=l18;
+net fe loc=f18;

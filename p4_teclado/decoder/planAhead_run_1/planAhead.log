@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sat Sep 09 04:34:10 2017
+# Process ID: 1972
+# Log file: E:/decoder/planAhead_run_1/planAhead.log
+# Journal file: E:/decoder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -1835 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source E:/decoder/pa.fromNetlist.tcl
+# create_project -name decoder -dir "E:/decoder/planAhead_run_1" -part xc3s500efg320-5
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/decoder/keypad.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/decoder} }
+# set_param project.paUcfFile  "keypad.ucf"
+# add_files "keypad.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc3s500efg320-5
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-1972-ipn-61eb84c0f4b\ngc2edif\keypad.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-1972-ipn-61eb84c0f4b\ngc2edif\keypad.edif'
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+WARN: [HD-NETLIST 3] Netlist 'keypad' is not ideal for floorplanning, since the cellview 'keypad' defined in file 'keypad.ngc' contains large number of primitives. Please consider enabling hierarchy in synthesis before floorplan. You can enable hierarchy in XST by setting '-keep_hierarchy=yes' or '-netlist_hierarchy=rebuilt' flags.
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\keypad.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\keypad.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by Alumno on host ipn-61eb84c0f4b, pid 1972
+          on Sat Sep 09 04:34:36 2017
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+startgroup
+set_property loc PAD101 [get_ports {col[0]}]
+set_property is_fixed true  [get_ports {col[0]}]
+endgroup
+startgroup
+set_property loc PAD92 [get_ports {col[0]}]
+set_property is_fixed true  [get_ports {col[0]}]
+endgroup
+startgroup
+set_property loc PAD97 [get_ports {col[1]}]
+set_property is_fixed true  [get_ports {col[1]}]
+endgroup
+startgroup
+set_property loc PAD107 [get_ports {col[2]}]
+set_property is_fixed true  [get_ports {col[2]}]
+endgroup
+startgroup
+set_property loc PAD101 [get_ports {col[3]}]
+set_property is_fixed true  [get_ports {col[3]}]
+endgroup
+set_property loc "" [get_ports {reg[0]}]
+set_property loc "" [get_ports {row[0]}]
+startgroup
+set_property loc PAD96 [get_ports {col[0]}]
+set_property is_fixed true  [get_ports {col[0]}]
+endgroup
+startgroup
+set_property loc PAD96 [get_ports {col[0]}]
+set_property is_fixed true  [get_ports {col[0]}]
+endgroup
+startgroup
+set_property loc PAD91 [get_ports {col[1]}]
+set_property is_fixed true  [get_ports {col[1]}]
+endgroup
+startgroup
+set_property loc PAD94 [get_ports {col[2]}]
+set_property is_fixed true  [get_ports {col[2]}]
+endgroup
+startgroup
+set_property loc PAD102 [get_ports {col[3]}]
+set_property is_fixed true  [get_ports {col[3]}]
+endgroup
+startgroup
+set_property loc PAD92 [get_ports {row[0]}]
+set_property is_fixed true  [get_ports {row[0]}]
+endgroup
+startgroup
+set_property loc PAD97 [get_ports {row[1]}]
+set_property is_fixed true  [get_ports {row[1]}]
+endgroup
+startgroup
+set_property loc PAD107 [get_ports {row[2]}]
+set_property is_fixed true  [get_ports {row[2]}]
+endgroup
+startgroup
+set_property loc PAD101 [get_ports {row[3]}]
+set_property is_fixed true  [get_ports {row[3]}]
+endgroup
+startgroup
+set_property loc IPAD29 [get_ports clk]
+set_property is_fixed true  [get_ports clk]
+endgroup
+startgroup
+set_property loc PAD84 [get_ports {reg[0]}]
+set_property is_fixed true  [get_ports {reg[0]}]
+endgroup
+startgroup
+set_property loc PAD85 [get_ports {reg[1]}]
+set_property is_fixed true  [get_ports {reg[1]}]
+endgroup
+startgroup
+set_property loc PAD90 [get_ports {reg[2]}]
+set_property is_fixed true  [get_ports {reg[2]}]
+endgroup
+startgroup
+set_property loc PAD89 [get_ports {reg[3]}]
+set_property is_fixed true  [get_ports {reg[3]}]
+endgroup
+save_design
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

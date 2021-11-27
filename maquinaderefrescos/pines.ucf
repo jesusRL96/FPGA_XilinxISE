@@ -1,0 +1,17 @@
+net mclk loc=b8;
+net mc loc=e18;
+net ma<0> loc =g18;
+net ma<1> loc =h18;
+net ma<2> loc =k18;
+net ma<3> loc =k17;
+net ma<4> loc =l14;
+net ma<5> loc =l13;
+net ma<6> loc =n17;
+net ma<7> loc =r17;
+net reset loc=h13;
+net md loc=j14;
+net clksal loc=j15;
+net acu<0> loc=k15;
+net acu<1> loc=k14;
+net acu<2> loc=e17;
+net acu<3> loc=p15;

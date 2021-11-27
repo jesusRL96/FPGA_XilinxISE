@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Fri Oct 06 08:28:19 2017
+# Process ID: 7700
+# Log file: G:/jesus/dlps/VGA/planAhead_run_2/planAhead.log
+# Journal file: G:/jesus/dlps/VGA/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui -source G:/jesus/dlps/VGA/pa.fromNetlist.tcl

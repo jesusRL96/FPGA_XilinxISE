@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="3">
+	<CompatParts>
+	</CompatParts>
+	<ConfigModes>
+	</ConfigModes>
+	<PortProps>
+		<Port Name="reg[3]" OffChipTerm="NONE"/>
+		<Port Name="reg[2]" OffChipTerm="NONE"/>
+		<Port Name="reg[1]" OffChipTerm="NONE"/>
+		<Port Name="reg[0]" OffChipTerm="NONE"/>
+		<Port Name="col[3]" OffChipTerm="NONE"/>
+		<Port Name="col[2]" OffChipTerm="NONE"/>
+		<Port Name="col[1]" OffChipTerm="NONE"/>
+		<Port Name="col[0]" OffChipTerm="NONE"/>
+		<Port Name="row[3]" OffChipTerm="NONE"/>
+		<Port Name="row[2]" OffChipTerm="NONE"/>
+		<Port Name="row[1]" OffChipTerm="NONE"/>
+		<Port Name="row[0]" OffChipTerm="NONE"/>
+		<Port Name="clk" OffChipTerm="NONE"/>
+	</PortProps>
+</Compat>
+
